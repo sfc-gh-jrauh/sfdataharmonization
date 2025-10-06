@@ -13,9 +13,7 @@ A production-ready entity resolution solution leveraging Snowflake's native AI c
 - [Overview](#-Overview)
 - [The Business Problem](#-the-business-problem)
 - [Solution Architecture](#solution-architecture) 
-- [Repository Contents](#-repository-contents)
 - [Prerequisites](#prerequisites)
-- [Quick Start](#-quick-start)
 - [Data Files](#-data-files)
 - [Key Features](#-key-features)
 - [Documentation](#-documentation)
@@ -137,7 +135,7 @@ This solution implements a **three-stage workflow** that progressively refines m
 3. **Follow along with this video**
   
 
-**Download Data Files:**
+## Data Files
 
 >[https://dbs.uni-leipzig.de/research/projects/benchmark-datasets-for-entity-resolution]
 >
