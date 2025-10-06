@@ -17,9 +17,8 @@ A production-ready entity resolution solution leveraging Snowflake's native AI c
 - [Data Files](#data-files)
 - [Key Features](#-key-features)
 - [Documentation](#-documentation)
-- [Contributing](#-contributing)
-- [License](#-license)
 - [Authors](#-authors)
+- [Quick Links](#-quick-links)
 
 ---
 
