@@ -12,7 +12,7 @@ A production-ready entity resolution solution leveraging Snowflake's native AI c
 
 - [Overview](#-Overview)
 - [The Business Problem](#-the-business-problem)
-- [Solution Architecture](#-solution-architecture)
+- [Solution Architecture](#-solution-architecture) 
 - [Repository Contents](#-repository-contents)
 - [Prerequisites](#-prerequisites)
 - [Quick Start](#-quick-start)
@@ -58,7 +58,7 @@ This is a classic **entity resolution** problem - determining which records in d
 
 ---
 
-## 🏗️ Solution Architecture
+## Solution Architecture
 
 This solution implements a **three-stage workflow** that progressively refines matches from raw data to validated results:
 
