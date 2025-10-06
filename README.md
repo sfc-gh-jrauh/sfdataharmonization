@@ -11,7 +11,7 @@ A production-ready entity resolution solution leveraging Snowflake's native AI c
 ## 📋 Table of Contents
 
 - [Overview](#Overview)
-- [The Business Problem](#the-business-problem)
+- [The Business Problem](#-the-business-problem)
 - [Solution Architecture](#solution-architecture)
 - [Repository Contents](#repository-contents)
 - [Prerequisites](#prerequisites)
