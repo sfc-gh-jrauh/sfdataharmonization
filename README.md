@@ -1,10 +1,10 @@
-# End-to-End Entity Resolution with Snowflake Cortex AI
+# End-to-End Data Harmonization with Snowflake Cortex AI
 
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-A production-ready entity resolution solution leveraging Snowflake's native AI capabilities to automatically match and reconcile product data across different retail catalogs.
+A production-ready data harmonization solution leveraging Snowflake's native AI capabilities to automatically match and reconcile product data across different retail catalogs.
 
 ---
 
@@ -24,7 +24,7 @@ A production-ready entity resolution solution leveraging Snowflake's native AI c
 
 ## 🎯 Overview
 
-This repository contains a complete end-to-end entity resolution pipeline that demonstrates how to match product records across different datasets with varying schemas, naming conventions, and data quality. Built entirely within Snowflake using Cortex AI, Streamlit, and Notebooks, this solution achieves **85%+ accuracy** while requiring minimal manual intervention.
+This repository contains a complete end-to-end data harmonization pipeline that demonstrates how to match product records across different datasets with varying schemas, naming conventions, and data quality. Built entirely within Snowflake using Cortex AI, Streamlit, and Notebooks, this solution achieves **85%+ accuracy** while requiring minimal manual intervention.
 
 **What makes this solution unique:**
 - 🤖 **AI-Powered**: Uses Snowflake Cortex AI for schema mapping and intelligent matching
@@ -45,7 +45,7 @@ Imagine you're a merchandising manager at **ABT Electronics** and need to perfor
 - No common identifiers exist between datasets
 - Manual mapping of 1,000+ products is impractical
 
-This is a classic **entity resolution** problem - determining which records in different datasets refer to the same real-world entity.
+This is a classic **data harmonization** problem - determining which records in different datasets refer to the same real-world entity.
 
 ### Traditional Challenges
 - ❌ Manual mapping takes weeks and is error-prone
@@ -98,7 +98,7 @@ This solution implements a **three-stage workflow** that progressively refines m
 |------|------|---------|
 | `Data Harmonization with Snowflake Cortex AI.py` | Streamlit App | Schema analysis and field mapping with AI recommendations |
 | `HYBRID_ENTITY_MATCHING_WITH_AI_CLASSIFY.ipynb` | Snowflake Notebook | Vector similarity + AI_CLASSIFY matching algorithm |
-| `Entity Resolution - Unmatched Records.py` | Streamlit App | Interactive review interface for uncertain matches |
+| `Data Harmonization - Unmatched Records.py` | Streamlit App | Interactive review interface for uncertain matches |
 | `Abt.csv` | Data | ABT Electronics product catalog |
 | `Buy.csv` | Data | Best Buy product catalog |
 | `abt_buy_perfectMapping.csv` | Data | Ground truth mapping for accuracy evaluation |
@@ -140,9 +140,9 @@ This solution implements a **three-stage workflow** that progressively refines m
 >
 >**Scroll down to find the Abt-Buy dataset link.**
 
-> **Note on the Datasets Used:** The datasets used in this quickstart are commonly used entity resolution test datasets. These datasets are made available by the database group of Prof. Erhard Rahm under the [Creative Commons license](https://creativecommons.org/licenses/by/4.0/). Column titles are changed at the table level from the original CSV files.
+> **Note on the Datasets Used:** The datasets used in this quickstart are commonly used data harmonization test datasets. These datasets are made available by the database group of Prof. Erhard Rahm under the [Creative Commons license](https://creativecommons.org/licenses/by/4.0/). Column titles are changed at the table level from the original CSV files.
 >
-> **Citation:** Hanna Köpcke, Andreas Thor, and Erhard Rahm. 2010. Evaluation of entity resolution approaches on real-world match problems. Proc. VLDB Endow. 3, 1–2 (September 2010), 484–493. [https://doi.org/10.14778/1920841.1920904](https://doi.org/10.14778/1920841.1920904)
+> **Citation:** Hanna Köpcke, Andreas Thor, and Erhard Rahm. 2010. Evaluation of data harmonization approaches on real-world match problems. Proc. VLDB Endow. 3, 1–2 (September 2010), 484–493. [https://doi.org/10.14778/1920841.1920904](https://doi.org/10.14778/1920841.1920904)
 ---
 
 ## ✨ Key Features
